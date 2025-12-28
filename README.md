@@ -15,4 +15,5 @@
 <li>CSS/Styled Components: For styling the app and ensuring responsiveness.</li>
 
 
-![Screenshot (72)](https://github.com/user-attachments/assets/7da909bd-45d7-4b14-b63e-95d383653e99)
+![Weather App Screenshot](./assets/weatherScreenshot.png)
+
