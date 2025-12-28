@@ -1,0 +1,168 @@
+
+
+.app {
+ 
+
+  margin: auto;
+  text-align: center;
+  background-size: cover;
+
+  opacity: 0.8;
+
+  
+}
+
+input {
+  padding: 8px;
+  margin-top: 8px;
+
+}
+
+
+
+.temperature {
+  font-size: 5rem;
+
+  margin-top: -20px;
+}
+
+.location {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.date {
+  font-size: x-large;
+
+  font-weight: 700;
+}
+.temp {
+  margin-top: 10px;
+  font-size: xx-large;
+  padding: 12px 25px;
+
+  font-weight: 700;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.weather {
+  font-size: xx-large;
+
+  font-weight: 500;
+}
+
+.wind-speed {
+  font-size: 33px;
+}
+
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(13, 14, 14, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #0beaf1 transparent #d11010 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body.clear {
+  background: url('../public/clear.gif');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+body.cloudy {
+  background: url('../public/cloudy.gif');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh
+}
+
+body.rain {
+  background: url('../public/rain.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.snow {
+  background: url('../public/snow.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.thunder {
+  background: url('../public/thunder.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.drizzle {
+  background: url('../public/drizzle.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.mist {
+  background: url('../public/mist.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+
+body.fog {
+  background: url('../public/mist.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.tornado {
+  background: url('../public/tornado.gif');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh
+}
+
+body.sand {
+  background: url('../public/sand.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.dust {
+  background: url('../public/dust.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+
+body {
+  background: url('../public/clear.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+
